@@ -21,7 +21,7 @@
             buttsInstance.theThiccMethod() //prints "I Like Them Thicc Yes I Do!!!!!!!!", as expected
             
             namezValuez = {69: buttsInstance.theThiccMethod} 
-            namezValuez[69]() // When you call the method via a Name Value Object, it just returns 'undefined!!!!!!!'
+            namezValuez[69]() // When you call the method via a Name Value Object, it prints 'undefined!!!!!!!'
 
             var arse = buttsInstance.theThiccMethod
             arse() // This gives me 'TypeError: this is undefined'
